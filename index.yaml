@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   mariadb-broker:
   - apiVersion: v1
-    created: 2017-08-05T02:37:12.453072517Z
+    created: 2017-08-05T03:01:18.509452801Z
     description: A Helm chart for Kubernetes
     digest: 2a699dc33b112d702dff048db75d1e81af8201988b6c1a3da7311acd29ac79c3
     name: mariadb-broker
     urls:
-    - https://pages.github.ibm.com/cdoan/charts/repo/stable/mariadb-broker-0.1.0.tgz
+    - https://cdoan1.github.io/charts/repo/stable/mariadb-broker-0.1.0.tgz
     version: 0.1.0
-generated: 2017-08-05T02:37:12.452024058Z
+generated: 2017-08-05T03:01:18.508324437Z
