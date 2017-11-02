@@ -1,8 +1,27 @@
 apiVersion: v1
 entries:
+  ibm-cloudant-dev:
+  - apiVersion: v1
+    created: 2017-11-02T17:35:18.787006887Z
+    description: Cloudant for Linux.
+    digest: 2a8f11e4163c4c496280fc5441facf85648e0bcbee200345b7b8cae78d294ec2
+    home: https://www.ibm.com/analytics/us/en/technology/cloud-data-services/cloudant/
+    icon: https://pbs.twimg.com/profile_images/618444507042988041/r72YruBL.png
+    keywords:
+    - cloudant
+    - IBM
+    - database
+    maintainers:
+    - email: hemanth.avs@us.ibm.com
+      name: hemanthavs
+    name: ibm-cloudant-dev
+    tillerVersion: '>=2.4.0'
+    urls:
+    - https://cdoan1.github.io/charts/ibm-cloudant-dev-1.0.0.tgz
+    version: 1.0.0
   mariadb-broker:
   - apiVersion: v1
-    created: 2017-11-01T20:43:22.106481017Z
+    created: 2017-11-02T17:35:18.787638395Z
     description: A Helm chart for Kubernetes
     digest: aa9a3e9030d3346ba4be0c4b6ce06843feaed037d24e2700dda66cf853213c06
     name: mariadb-broker
@@ -11,11 +30,11 @@ entries:
     version: 0.1.0
   secure_mariadb-broker:
   - apiVersion: v1
-    created: 2017-11-01T20:43:22.107233029Z
+    created: 2017-11-02T17:35:18.788350345Z
     description: A Helm chart for Kubernetes
     digest: 52005702d84822ccd7ab68776b007d9a902c5406fdf016cda502f961753a9fd1
     name: secure_mariadb-broker
     urls:
     - https://cdoan1.github.io/charts/secure_mariadb-broker-0.1.0.tgz
     version: 0.1.0
-generated: 2017-11-01T20:43:22.105245626Z
+generated: 2017-11-02T17:35:18.785183924Z
