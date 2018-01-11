@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   catalog:
-  - created: 2018-01-11T22:41:22.283953479Z
+  - created: 2018-01-11T22:41:37.915854618Z
     description: service-catalog API server and controller-manager helm chart
     digest: 0287c705bcd14afb502e51a3103280a12a197c0163b590ebcdb22cc78e7c921b
     name: catalog
@@ -9,7 +9,7 @@ entries:
     - https://cdoan1.github.io/charts/catalog-0.1.3.tgz
     version: 0.1.3
   catalog-catalog:
-  - created: 2018-01-11T22:41:22.28493515Z
+  - created: 2018-01-11T22:41:37.916684696Z
     description: service-catalog API server and controller-manager helm chart
     digest: faf805eb529b0c5f6646ab90e5773c746827f50a55fa684310f44f079c5e5362
     name: catalog-catalog
@@ -18,7 +18,7 @@ entries:
     version: 0.1.3
   ibm-cloudant-dev:
   - apiVersion: v1
-    created: 2018-01-11T22:41:22.286448266Z
+    created: 2018-01-11T22:41:37.91825849Z
     description: Cloudant for Linux.
     digest: 15a0cfcaaf4913d99a838fb7db000c390f404abac4db48d24513bea5c01dcc14
     home: https://www.ibm.com/analytics/us/en/technology/cloud-data-services/cloudant/
@@ -37,7 +37,7 @@ entries:
     version: 1.0.0
   mariadb-broker:
   - apiVersion: v1
-    created: 2018-01-11T22:41:22.287085745Z
+    created: 2018-01-11T22:41:37.918585766Z
     description: A Helm chart for Kubernetes
     digest: aa9a3e9030d3346ba4be0c4b6ce06843feaed037d24e2700dda66cf853213c06
     name: mariadb-broker
@@ -46,11 +46,11 @@ entries:
     version: 0.1.0
   secure-mariadb-broker:
   - apiVersion: v1
-    created: 2018-01-11T22:41:22.288109072Z
+    created: 2018-01-11T22:41:37.918993222Z
     description: A Helm chart for Kubernetes
     digest: 047ec6e2e411cd406f2838230896d5e908537214146674705f247bb0ed20d341
     name: secure-mariadb-broker
     urls:
     - https://cdoan1.github.io/charts/secure-mariadb-broker-0.1.1.tgz
     version: 0.1.1
-generated: 2018-01-11T22:41:22.282641203Z
+generated: 2018-01-11T22:41:37.914616108Z
