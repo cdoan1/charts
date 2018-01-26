@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   catalog:
-  - created: 2018-01-26T03:51:51.059835965Z
+  - created: 2018-01-26T04:09:13.01466118Z
     description: service-catalog API server and controller-manager helm chart
     digest: 0287c705bcd14afb502e51a3103280a12a197c0163b590ebcdb22cc78e7c921b
     name: catalog
@@ -9,7 +9,7 @@ entries:
     - https://cdoan1.github.io/charts/catalog-0.1.3.tgz
     version: 0.1.3
   catalog-catalog:
-  - created: 2018-01-26T03:51:51.060267306Z
+  - created: 2018-01-26T04:09:13.015294303Z
     description: service-catalog API server and controller-manager helm chart
     digest: faf805eb529b0c5f6646ab90e5773c746827f50a55fa684310f44f079c5e5362
     name: catalog-catalog
@@ -18,7 +18,7 @@ entries:
     version: 0.1.3
   mariadb-broker:
   - apiVersion: v1
-    created: 2018-01-26T03:51:51.06061002Z
+    created: 2018-01-26T04:09:13.015899122Z
     description: A Helm chart for Kubernetes
     digest: aa9a3e9030d3346ba4be0c4b6ce06843feaed037d24e2700dda66cf853213c06
     name: mariadb-broker
@@ -27,7 +27,7 @@ entries:
     version: 0.1.0
   secure-mariadb-broker:
   - apiVersion: v1
-    created: 2018-01-26T03:51:51.061023765Z
+    created: 2018-01-26T04:09:13.016420694Z
     description: A Helm chart for Kubernetes
     digest: f8ddf7393bea4e10bf5646777ae37bb2328fda0dd047a3521b4d041407024b84
     name: secure-mariadb-broker
@@ -35,7 +35,7 @@ entries:
     - https://cdoan1.github.io/charts/secure-mariadb-broker-0.1.2.tgz
     version: 0.1.2
   ups-broker:
-  - created: 2018-01-26T03:51:51.061237132Z
+  - created: 2018-01-26T04:09:13.016693426Z
     description: user-provided service-broker deployment Helm chart.
     digest: 061df12f0c8f11059450057abf6bcbe1417dcb84710e5be8cafada34320dd2b0
     name: ups-broker
@@ -43,11 +43,11 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-0.1.4.tgz
     version: 0.1.4
   ups-broker-autoregister:
-  - created: 2018-01-26T03:51:51.061457177Z
+  - created: 2018-01-26T04:09:13.016995049Z
     description: ups-broker helm with service-catalog registration
-    digest: 4fd20d9d4a664e4908a3a4d60bd8217d1f3f05e19324bbcefef27d86d0f019f7
+    digest: f8705870ebae47716ad84bc2a02c10350ccf06f254b18f374e3749edabfb232c
     name: ups-broker-autoregister
     urls:
-    - https://cdoan1.github.io/charts/ups-broker-autoregister-0.1.5.tgz
-    version: 0.1.5
-generated: 2018-01-26T03:51:51.059261291Z
+    - https://cdoan1.github.io/charts/ups-broker-autoregister-0.1.6.tgz
+    version: 0.1.6
+generated: 2018-01-26T04:09:13.013693337Z
