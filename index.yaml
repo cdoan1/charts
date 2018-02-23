@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   catalog:
-  - created: 2018-02-15T03:07:53.074155185Z
+  - created: 2018-02-23T22:17:49.43917924Z
     description: service-catalog API server and controller-manager helm chart
     digest: 0287c705bcd14afb502e51a3103280a12a197c0163b590ebcdb22cc78e7c921b
     name: catalog
@@ -9,7 +9,7 @@ entries:
     - https://cdoan1.github.io/charts/catalog-0.1.3.tgz
     version: 0.1.3
   catalog-catalog:
-  - created: 2018-02-15T03:07:53.074683257Z
+  - created: 2018-02-23T22:17:49.439641927Z
     description: service-catalog API server and controller-manager helm chart
     digest: faf805eb529b0c5f6646ab90e5773c746827f50a55fa684310f44f079c5e5362
     name: catalog-catalog
@@ -18,16 +18,25 @@ entries:
     version: 0.1.3
   mariadb-broker:
   - apiVersion: v1
-    created: 2018-02-15T03:07:53.075062796Z
+    created: 2018-02-23T22:17:49.440105179Z
     description: A Helm chart for Kubernetes
     digest: aa9a3e9030d3346ba4be0c4b6ce06843feaed037d24e2700dda66cf853213c06
     name: mariadb-broker
     urls:
     - https://cdoan1.github.io/charts/mariadb-broker-0.1.0.tgz
     version: 0.1.0
+  poc-mdb-broker:
+  - apiVersion: v1
+    created: 2018-02-23T22:17:49.440468126Z
+    description: A Helm chart for Kubernetes
+    digest: e3048fb131eace68862b70941b122b4faa94bf38bb50940383c204fa9c911948
+    name: poc-mdb-broker
+    urls:
+    - https://cdoan1.github.io/charts/poc-mdb-broker-0.1.0.tgz
+    version: 0.1.0
   secure-mariadb-broker:
   - apiVersion: v1
-    created: 2018-02-15T03:07:53.075360743Z
+    created: 2018-02-23T22:17:49.44093058Z
     description: A Helm chart for Kubernetes
     digest: 112501b5dfca6d6eb2b3f020ed380d48ce9c012f2a56d5459d2a657c97edc5cf
     name: secure-mariadb-broker
@@ -35,7 +44,7 @@ entries:
     - https://cdoan1.github.io/charts/secure-mariadb-broker-0.1.4.tgz
     version: 0.1.4
   ups-broker:
-  - created: 2018-02-15T03:07:53.07557436Z
+  - created: 2018-02-23T22:17:49.44116613Z
     description: user-provided service-broker deployment Helm chart.
     digest: 061df12f0c8f11059450057abf6bcbe1417dcb84710e5be8cafada34320dd2b0
     name: ups-broker
@@ -43,7 +52,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-0.1.4.tgz
     version: 0.1.4
   ups-broker-autoregister:
-  - created: 2018-02-15T03:07:53.075836118Z
+  - created: 2018-02-23T22:17:49.441493158Z
     description: ups-broker helm with service-catalog registration
     digest: 6f2a02ea7aede37ede87d1c38d88060d0d32709ceb8a0ba03b5ccb4356295e7e
     name: ups-broker-autoregister
@@ -51,7 +60,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-autoregister-0.1.6.tgz
     version: 0.1.6
   ups-broker-scale:
-  - created: 2018-02-15T03:07:53.076218848Z
+  - created: 2018-02-23T22:17:49.441849756Z
     description: ups-broker-scale helm with broker registration
     digest: 89b4744975730690d8d7b52a9c5d247c63025519e2de583ad0de46a2d6ac9f58
     name: ups-broker-scale
@@ -59,11 +68,11 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-scale-0.0.1.tgz
     version: 0.0.1
   ups-broker-schema:
-  - created: 2018-02-15T03:07:53.076515263Z
+  - created: 2018-02-23T22:17:49.442236097Z
     description: ups-broker-schema helm with broker registration
     digest: 4b622bd9d7d49559f0e540608bd93565e58bbcd35e2f5f615b9b2fa413ec95c5
     name: ups-broker-schema
     urls:
     - https://cdoan1.github.io/charts/ups-broker-schema-0.0.1.tgz
     version: 0.0.1
-generated: 2018-02-15T03:07:53.07343875Z
+generated: 2018-02-23T22:17:49.438527071Z
