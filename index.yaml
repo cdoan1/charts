@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   cert-gen:
-  - created: 2018-03-09T16:35:12.635318434Z
+  - created: 2018-03-09T16:37:45.910103573Z
     description: Generate certs as Kubernetes secret
     digest: 65d6dc79befb8fc18ccbcf741142ae1b78bffdc72a73fc1c61d07e2d8b6ccc10
     home: https://github.ibm.com/IBMPrivateCloud/icp-cert-gen
@@ -20,7 +20,7 @@ entries:
     version: 0.1.0
   mariadb-broker:
   - apiVersion: v1
-    created: 2018-03-09T16:35:12.635848017Z
+    created: 2018-03-09T16:37:45.910417532Z
     description: A Helm chart for Kubernetes
     digest: aa9a3e9030d3346ba4be0c4b6ce06843feaed037d24e2700dda66cf853213c06
     name: mariadb-broker
@@ -29,16 +29,27 @@ entries:
     version: 0.1.0
   mariadb-broker-beta:
   - apiVersion: v1
-    created: 2018-03-09T16:35:12.636211564Z
+    created: 2018-03-09T16:37:45.910701418Z
     description: A Helm chart for Kubernetes
-    digest: cafe839cbcf5e662b29ed5fea3938893562b32509caa563b61229f7deb6f5f67
+    digest: ed914be280c4db4c16cf6e7da031aee43b9aaea98a8289b252da5726ebc7bd3c
+    home: https://github.ibm.com/IBMPrivateCloud/icp-cert-gen
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+    keywords:
+    - kubernetes
+    - osb
+    - broker
+    maintainers:
+    - email: cdoan@us.ibm.com
+      name: IBM Cloud Private
     name: mariadb-broker-beta
+    sources:
+    - https://github.ibm.com/IBMPrivateCloud/icp-MariaDB-Broker
     urls:
-    - https://cdoan1.github.io/charts/mariadb-broker-beta-0.0.1.tgz
-    version: 0.0.1
+    - https://cdoan1.github.io/charts/mariadb-broker-beta-0.0.2.tgz
+    version: 0.0.2
   poc-mdb-broker:
   - apiVersion: v1
-    created: 2018-03-09T16:35:12.63658563Z
+    created: 2018-03-09T16:37:45.910942487Z
     description: A Helm chart for Kubernetes
     digest: e3048fb131eace68862b70941b122b4faa94bf38bb50940383c204fa9c911948
     name: poc-mdb-broker
@@ -47,7 +58,7 @@ entries:
     version: 0.1.0
   secure-mariadb-broker:
   - apiVersion: v1
-    created: 2018-03-09T16:35:12.636998138Z
+    created: 2018-03-09T16:37:45.911220676Z
     description: A Helm chart for Kubernetes
     digest: 22754e70fe84ee48ed25e5423feeccf16f8cd602163907e79484df6ecf7f1589
     name: secure-mariadb-broker
@@ -55,7 +66,7 @@ entries:
     - https://cdoan1.github.io/charts/secure-mariadb-broker-0.1.5.tgz
     version: 0.1.5
   service-broker:
-  - created: 2018-03-09T16:35:12.637584753Z
+  - created: 2018-03-09T16:37:45.911658758Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
     digest: 46381b292ea77d5120ac5994f7975ddb11d22c6831ced352bd393c23d9a728e0
@@ -64,7 +75,7 @@ entries:
     - https://cdoan1.github.io/charts/service-broker-0.0.3.tgz
     version: 0.0.3
   service-catalog:
-  - created: 2018-03-09T16:35:12.639100934Z
+  - created: 2018-03-09T16:37:45.912510283Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
     digest: 82f2b83dc2227dfb2dd5b4d8d84416b8564fbd5fa485dcc789419db3d312fa6f
@@ -73,7 +84,7 @@ entries:
     - https://cdoan1.github.io/charts/service-catalog-0.2.6.tgz
     version: 0.2.6
   ups-broker:
-  - created: 2018-03-09T16:35:12.639468623Z
+  - created: 2018-03-09T16:37:45.912846957Z
     description: user-provided service-broker deployment Helm chart.
     digest: 061df12f0c8f11059450057abf6bcbe1417dcb84710e5be8cafada34320dd2b0
     name: ups-broker
@@ -81,7 +92,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-0.1.4.tgz
     version: 0.1.4
   ups-broker-autoregister:
-  - created: 2018-03-09T16:35:12.639822271Z
+  - created: 2018-03-09T16:37:45.913069849Z
     description: ups-broker helm with service-catalog registration
     digest: 6f2a02ea7aede37ede87d1c38d88060d0d32709ceb8a0ba03b5ccb4356295e7e
     name: ups-broker-autoregister
@@ -89,7 +100,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-autoregister-0.1.6.tgz
     version: 0.1.6
   ups-broker-scale:
-  - created: 2018-03-09T16:35:12.640050494Z
+  - created: 2018-03-09T16:37:45.913331758Z
     description: ups-broker-scale helm with broker registration
     digest: 89b4744975730690d8d7b52a9c5d247c63025519e2de583ad0de46a2d6ac9f58
     name: ups-broker-scale
@@ -97,11 +108,11 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-scale-0.0.1.tgz
     version: 0.0.1
   ups-broker-schema:
-  - created: 2018-03-09T16:35:12.640255065Z
+  - created: 2018-03-09T16:37:45.913567902Z
     description: ups-broker-schema helm with broker registration
     digest: 4b622bd9d7d49559f0e540608bd93565e58bbcd35e2f5f615b9b2fa413ec95c5
     name: ups-broker-schema
     urls:
     - https://cdoan1.github.io/charts/ups-broker-schema-0.0.1.tgz
     version: 0.0.1
-generated: 2018-03-09T16:35:12.634697819Z
+generated: 2018-03-09T16:37:45.909640912Z
