@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   alpha-broker:
-  - created: 2018-03-21T22:28:22.836115685Z
+  - created: 2018-03-22T00:34:45.212063031Z
     description: a development broker chart with service catalog registration
     digest: 5afc9f326ad8ae18befb212452bdc1c20ea331d689e7e105ae9b540dfa2c5fbc
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -17,7 +17,7 @@ entries:
     - https://cdoan1.github.io/charts/alpha-broker-0.0.3.tgz
     version: 0.0.3
   cert-gen:
-  - created: 2018-03-21T22:28:22.836433086Z
+  - created: 2018-03-22T00:34:45.212301276Z
     description: Generate certs as Kubernetes secret
     digest: 65d6dc79befb8fc18ccbcf741142ae1b78bffdc72a73fc1c61d07e2d8b6ccc10
     home: https://github.ibm.com/IBMPrivateCloud/icp-cert-gen
@@ -36,9 +36,9 @@ entries:
     version: 0.1.0
   ibm-cloudant-dev:
   - apiVersion: v1
-    created: 2018-03-21T22:28:22.837345054Z
+    created: 2018-03-22T00:34:45.2131729Z
     description: Cloudant for Linux.
-    digest: 0b04377da284328a5af40cfd7738a675d9a61efc55227bb71ffef03fcd945df9
+    digest: b0648d106f89f0992260496b311d3431c71bf90dda841519749121f33d0986b4
     home: https://www.ibm.com/analytics/us/en/technology/cloud-data-services/cloudant/
     icon: https://pbs.twimg.com/profile_images/618444507042988041/r72YruBL.png
     keywords:
@@ -55,7 +55,7 @@ entries:
   ibm-mongodb-dev:
   - apiVersion: v1
     appVersion: 3.6.0
-    created: 2018-03-21T22:28:22.844744977Z
+    created: 2018-03-22T00:34:45.220322632Z
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications.
@@ -76,7 +76,7 @@ entries:
     version: 1.1.2
   mariadb-broker:
   - apiVersion: v1
-    created: 2018-03-21T22:28:22.845249823Z
+    created: 2018-03-22T00:34:45.220665001Z
     description: A Helm chart for Kubernetes
     digest: aa9a3e9030d3346ba4be0c4b6ce06843feaed037d24e2700dda66cf853213c06
     name: mariadb-broker
@@ -85,7 +85,7 @@ entries:
     version: 0.1.0
   mariadb-broker-authn:
   - apiVersion: v1
-    created: 2018-03-21T22:28:22.845688945Z
+    created: 2018-03-22T00:34:45.221049219Z
     description: A Helm chart for MariaDB broker with Basic AuthN
     digest: bd349b16efd4a2cd76c47aaae8d43015909ea9a353e8c049f18522165c7383eb
     home: https://github.ibm.com/IBMPrivateCloud/icp-service-catalog-charts/stable/mariadb-broker-authn
@@ -105,7 +105,7 @@ entries:
     version: 0.0.3
   mariadb-broker-beta:
   - apiVersion: v1
-    created: 2018-03-21T22:28:22.846058389Z
+    created: 2018-03-22T00:34:45.221329679Z
     description: A Helm chart for MariaDB broker with no authentication
     digest: ca5814791a093832b39b7cfe83553fbfe8739abcb3c1851ad94b2944dd6fc03f
     home: https://github.ibm.com/IBMPrivateCloud/icp-service-catalog-charts/stable/mariadb-broker-beta
@@ -125,7 +125,7 @@ entries:
     version: 0.0.4
   secure-mariadb-broker:
   - apiVersion: v1
-    created: 2018-03-21T22:28:22.846370423Z
+    created: 2018-03-22T00:34:45.221564693Z
     description: A Helm chart for Kubernetes
     digest: 0874ad8cf22cb3fd177742b7ed80f397a00c6a24aa17daae4715750281c531b4
     name: secure-mariadb-broker
@@ -133,7 +133,7 @@ entries:
     - https://cdoan1.github.io/charts/secure-mariadb-broker-0.1.6.tgz
     version: 0.1.6
   service-broker:
-  - created: 2018-03-21T22:28:22.846899416Z
+  - created: 2018-03-22T00:34:45.222025507Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
     digest: b55bfef08426c26d23b5da9002ac186d4ebbc6cd773096a48738ba3a720e3205
@@ -143,7 +143,7 @@ entries:
     - https://cdoan1.github.io/charts/service-broker-0.0.4.tgz
     version: 0.0.4
   service-catalog:
-  - created: 2018-03-21T22:28:22.848519628Z
+  - created: 2018-03-22T00:34:45.222909071Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
     digest: 8f1ba9942e56fb1d3099174b3050e535b052063f5009090b39e178629561e094
@@ -153,7 +153,7 @@ entries:
     - https://cdoan1.github.io/charts/service-catalog-0.2.7.tgz
     version: 0.2.7
   ups-broker:
-  - created: 2018-03-21T22:28:22.849515618Z
+  - created: 2018-03-22T00:34:45.223847163Z
     description: user-provided service-broker deployment Helm chart.
     digest: bf8bcc94b36bb8f6a0100f4823ad249408b3a0899bd3f9349ee7c144668a1067
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -169,7 +169,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-0.1.6.tgz
     version: 0.1.6
   ups-broker-autoregister:
-  - created: 2018-03-21T22:28:22.850332074Z
+  - created: 2018-03-22T00:34:45.224844507Z
     description: ups-broker helm with service-catalog registration
     digest: 256b8ddaae36e0d055563acd6890a929386f813de46f134381d58e260e095401
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -185,7 +185,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-autoregister-0.1.8.tgz
     version: 0.1.8
   ups-broker-scale:
-  - created: 2018-03-21T22:28:22.851014541Z
+  - created: 2018-03-22T00:34:45.225482017Z
     description: ups-broker-scale helm with broker registration
     digest: 1deafac4fa1f7e6f35dcc16ad364261cc741bacc0829bad25dc01e5d741262c6
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -201,7 +201,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-scale-0.0.2.tgz
     version: 0.0.2
   ups-broker-schema:
-  - created: 2018-03-21T22:28:22.85168697Z
+  - created: 2018-03-22T00:34:45.226098656Z
     description: ups-broker-schema helm with broker registration
     digest: 381f66bbda17398e636edc0898e0b71da3f980239fc9db305e3204237a15f126
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -216,4 +216,4 @@ entries:
     urls:
     - https://cdoan1.github.io/charts/ups-broker-schema-0.0.2.tgz
     version: 0.0.2
-generated: 2018-03-21T22:28:22.835658516Z
+generated: 2018-03-22T00:34:45.211617313Z
