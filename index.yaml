@@ -1,7 +1,7 @@
 apiVersion: v1
 entries:
   alpha-broker:
-  - created: 2018-05-04T19:05:09.654877154Z
+  - created: 2018-05-04T20:02:38.014692508Z
     description: a development broker chart with service catalog registration
     digest: 5afc9f326ad8ae18befb212452bdc1c20ea331d689e7e105ae9b540dfa2c5fbc
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -17,7 +17,7 @@ entries:
     - https://cdoan1.github.io/charts/alpha-broker-0.0.3.tgz
     version: 0.0.3
   cert-gen:
-  - created: 2018-05-04T19:05:09.655741929Z
+  - created: 2018-05-04T20:02:38.015388152Z
     description: Generate certs as Kubernetes secret
     digest: 61bbcea301e03a8b01538f01dae2a19661722a4217922190703848c89d975362
     home: https://github.ibm.com/IBMPrivateCloud/icp-cert-gen
@@ -36,7 +36,7 @@ entries:
     version: 0.1.0
   ibm-cloudant-dev:
   - apiVersion: v1
-    created: 2018-05-04T19:05:09.657316506Z
+    created: 2018-05-04T20:02:38.016883302Z
     deprecated: true
     description: Cloudant for Linux.
     digest: c20b5b60f85c2e37329fcfbed052b3bfebb62c18495e096f610469e5627cd32b
@@ -59,7 +59,7 @@ entries:
   ibm-mongodb-dev:
   - apiVersion: v1
     appVersion: 3.6.0
-    created: 2018-05-04T19:05:09.665257145Z
+    created: 2018-05-04T20:02:38.025360219Z
     deprecated: true
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
@@ -85,7 +85,7 @@ entries:
     version: 1.1.2
   mariadb-broker:
   - apiVersion: v1
-    created: 2018-05-04T19:05:09.665590005Z
+    created: 2018-05-04T20:02:38.025696541Z
     description: A Helm chart for Kubernetes
     digest: aa9a3e9030d3346ba4be0c4b6ce06843feaed037d24e2700dda66cf853213c06
     name: mariadb-broker
@@ -94,7 +94,7 @@ entries:
     version: 0.1.0
   mariadb-broker-authn:
   - apiVersion: v1
-    created: 2018-05-04T19:05:09.665922641Z
+    created: 2018-05-04T20:02:38.026016197Z
     description: A Helm chart for MariaDB broker with Basic AuthN
     digest: bd349b16efd4a2cd76c47aaae8d43015909ea9a353e8c049f18522165c7383eb
     home: https://github.ibm.com/IBMPrivateCloud/icp-service-catalog-charts/stable/mariadb-broker-authn
@@ -114,7 +114,7 @@ entries:
     version: 0.0.3
   mariadb-broker-beta:
   - apiVersion: v1
-    created: 2018-05-04T19:05:09.666204301Z
+    created: 2018-05-04T20:02:38.026350276Z
     description: A Helm chart for MariaDB broker with no authentication
     digest: ca5814791a093832b39b7cfe83553fbfe8739abcb3c1851ad94b2944dd6fc03f
     home: https://github.ibm.com/IBMPrivateCloud/icp-service-catalog-charts/stable/mariadb-broker-beta
@@ -134,7 +134,7 @@ entries:
     version: 0.0.4
   secure-mariadb-broker:
   - apiVersion: v1
-    created: 2018-05-04T19:05:09.666452653Z
+    created: 2018-05-04T20:02:38.02660904Z
     description: A Helm chart for Kubernetes
     digest: f9612091217b545d2dc1451d30bcb1e1b292143be801f077e6c3bdbeb63f056d
     keywords:
@@ -144,7 +144,7 @@ entries:
     - https://cdoan1.github.io/charts/secure-mariadb-broker-0.1.10.tgz
     version: 0.1.10
   service-broker:
-  - created: 2018-05-04T19:05:09.666930206Z
+  - created: 2018-05-04T20:02:38.027089637Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
     digest: b55bfef08426c26d23b5da9002ac186d4ebbc6cd773096a48738ba3a720e3205
@@ -155,10 +155,10 @@ entries:
     version: 0.0.4
   service-catalog:
   - apiVersion: v1
-    created: 2018-05-04T19:05:09.667397576Z
+    created: 2018-05-04T20:02:38.027551307Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
-    digest: 56addc071a7b4baf6f9e55ce2540f53b2a7e89a3f86be4c7960a1754d3d5a51e
+    digest: 4ccc584aa03defce9bbc123a1dd62979dd1e77fcff4cbae7df0fea4882639ed5
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - Beta
@@ -166,10 +166,10 @@ entries:
     - IcpClusterResource
     name: service-catalog
     urls:
-    - https://cdoan1.github.io/charts/service-catalog-0.0.10.tgz
-    version: 0.0.10
+    - https://cdoan1.github.io/charts/service-catalog-0.0.11.tgz
+    version: 0.0.11
   ups-broker:
-  - created: 2018-05-04T19:05:09.667633223Z
+  - created: 2018-05-04T20:02:38.027813571Z
     description: user-provided service-broker deployment Helm chart.
     digest: bf8bcc94b36bb8f6a0100f4823ad249408b3a0899bd3f9349ee7c144668a1067
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -185,7 +185,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-0.1.6.tgz
     version: 0.1.6
   ups-broker-autoregister:
-  - created: 2018-05-04T19:05:09.667886228Z
+  - created: 2018-05-04T20:02:38.028071416Z
     description: ups-broker helm with service-catalog registration
     digest: 256b8ddaae36e0d055563acd6890a929386f813de46f134381d58e260e095401
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -201,7 +201,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-autoregister-0.1.8.tgz
     version: 0.1.8
   ups-broker-scale:
-  - created: 2018-05-04T19:05:09.668127138Z
+  - created: 2018-05-04T20:02:38.02832233Z
     description: ups-broker-scale helm with broker registration
     digest: 1deafac4fa1f7e6f35dcc16ad364261cc741bacc0829bad25dc01e5d741262c6
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -217,7 +217,7 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-scale-0.0.2.tgz
     version: 0.0.2
   ups-broker-schema:
-  - created: 2018-05-04T19:05:09.668386446Z
+  - created: 2018-05-04T20:02:38.028560887Z
     description: ups-broker-schema helm with broker registration
     digest: 381f66bbda17398e636edc0898e0b71da3f980239fc9db305e3204237a15f126
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -232,4 +232,4 @@ entries:
     urls:
     - https://cdoan1.github.io/charts/ups-broker-schema-0.0.2.tgz
     version: 0.0.2
-generated: 2018-05-04T19:05:09.654435603Z
+generated: 2018-05-04T20:02:38.013722805Z
