@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   alpha-broker:
-  - created: 2018-11-17T19:01:41.338902313Z
+  - created: 2018-11-27T20:04:48.029334379Z
     description: a development broker chart with service catalog registration
-    digest: 82d50693308e4e183d04a3530913ece146a6958dd782f1a526792967bdc23984
+    digest: 025aa27f96a36d4fd253ba1f59db46648c767b135d34e53573c9d4b59cf33789
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - kubernetes
@@ -19,17 +19,17 @@ entries:
   boolean-test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-17T19:01:41.339362712Z
+    created: 2018-11-27T20:04:48.0295201Z
     description: A Helm chart for Kubernetes
-    digest: 128e210734e545723308769cc793643262620aa4e7a1e60a918664fd1f541b2d
+    digest: e2f4ed8de857f6e691fdf5d8ae5a55ad60e7f217cae6d81ea1fecf57a2ab54fa
     name: boolean-test
     urls:
     - https://cdoan1.github.io/charts/boolean-test-0.1.0.tgz
     version: 0.1.0
   cert-gen:
-  - created: 2018-11-17T19:01:41.340021462Z
+  - created: 2018-11-27T20:04:48.030331576Z
     description: Generate certs as Kubernetes secret
-    digest: 97489144d550832618df348a5f185f132068da2c7524dda9715e7a2c64033d5d
+    digest: 685c435763fb71bd8ccac833ada528c1f9078045d290ea90e0dc070600999f8c
     home: https://github.ibm.com/IBMPrivateCloud/icp-cert-gen
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
@@ -45,9 +45,9 @@ entries:
     - https://cdoan1.github.io/charts/cert-gen-0.1.0.tgz
     version: 0.1.0
   ibm-chart-dev:
-  - created: 2018-11-17T19:01:41.342774947Z
+  - created: 2018-11-27T20:04:48.033663998Z
     description: ProductDescription
-    digest: 4a31aa609f32f42ba5cd29930c4e64a2fb5dc6fb0fd5615353a515233f582bed
+    digest: 175669277ed4796620e6513c8fdefedd3d0f50985241e13528f83ba4e955f656
     icon: http://raw.githubusercontent.com/IBM/charts/master/logo/icp-logo-box.svg
     keywords:
     - Tech
@@ -69,9 +69,9 @@ entries:
     version: 0.1.3
   ibm-cloudant-dev:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.344410205Z
+    created: 2018-11-27T20:04:48.035253114Z
     description: Cloudant for Linux.
-    digest: 24b26015ff2809a9a7173244eef51228e4461722bb36210b6fedf2773b5b28a5
+    digest: 625b209423456b1b305a955e11ee3c08225ac1d0dd3713e1d382a2ab6f2f019f
     home: https://www.ibm.com/analytics/us/en/technology/cloud-data-services/cloudant/
     icon: https://pbs.twimg.com/profile_images/618444507042988041/r72YruBL.png
     keywords:
@@ -86,9 +86,9 @@ entries:
   ibm-glusterfs:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-17T19:01:41.346165238Z
+    created: 2018-11-27T20:04:48.037002559Z
     description: A Helm chart to create GlusterFS Storage Cluster
-    digest: dbff36cbd12f6bfe29a729eeee84c4c76e87e95309e8f91959de487be75e907e
+    digest: 564f96b248c0253f64d8766673c1375a80b5285e33f22c80b6f7e1f1c9eaeaee
     icon: https://www.gluster.org/wp-content/uploads/2016/03/gluster-ant.png
     keywords:
     - amd64
@@ -104,12 +104,12 @@ entries:
   ibm-mongodb-dev:
   - apiVersion: v1
     appVersion: 3.6.0
-    created: 2018-11-17T19:01:41.35338156Z
+    created: 2018-11-27T20:04:48.044004686Z
     deprecated: true
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications.
-    digest: 52a21640f2fea24b773925880cbcb3785b7343a49cad8a5a71f9fa6598a2ac96
+    digest: 52f45d3e211ba013edae9bf60c88d5bd3f7a648da75847f78f89087f3c73e9b2
     engine: gotpl
     keywords:
     - mongodb
@@ -130,9 +130,9 @@ entries:
     version: 1.1.3
   ibm-websphere-libertyMods:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.355134467Z
+    created: 2018-11-27T20:04:48.045639292Z
     description: WebSphere Liberty for Linux on amd64, ppc64le and s390x
-    digest: 5b3b5cc85dba6e8aea6b2d7c8490baa8e7750180175c664092c401e453b3b52d
+    digest: f1e4cbeb3090fc7c2d737cad55871d8c5a53214d6d3d10f246510c297d765320
     home: https://store.docker.com/images/websphere-liberty
     icon: https://developer.ibm.com/wasdev/wp-content/uploads/sites/9/2015/10/liberty-logo-01.png
     maintainers:
@@ -146,18 +146,18 @@ entries:
     version: 1.4.0
   icip-navigator:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.361914021Z
+    created: 2018-11-27T20:04:48.050921286Z
     description: A Helm chart for the IBM Cloud Integration Platform Navigator
-    digest: 944787cc85c7f2cc7d919b3d42c08b5a2441cbe9c80d05f2b7e535728452e214
+    digest: 23542e85ee96ed41cf2d99329df8b9d275de4aa5d08d74b552949a8f8ad8ae04
     name: icip-navigator
     urls:
     - https://cdoan1.github.io/charts/icip-navigator-1.0.0.tgz
     version: 1.0.0
   icp-mariadb-broker:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.362737396Z
+    created: 2018-11-27T20:04:48.051457302Z
     description: A Helm chart for Kubernetes
-    digest: f4d5e25aa3c810f797356d316833e1d9eb10c68c8c67f33be27a97679731fb59
+    digest: dccfe983d409bbc5c1beda23dbab9d1d1c13cf6edbd905dab975b992a4e29aa9
     keywords:
     - IcpClusterResource
     name: icp-mariadb-broker
@@ -166,9 +166,9 @@ entries:
     version: 0.1.13
   jdbc-viewer:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.36314177Z
+    created: 2018-11-27T20:04:48.051992326Z
     description: A Helm chart for the JDBC Viewer application
-    digest: c83b49930968d52b3df5d3932a2362d5a4f2e604f78396ada70e4eb701117d6f
+    digest: 7bbdab2663ff5ecc69168e9fa2bf1bad9963cf4ee4a6dd63f7d41fe3c5ea8d19
     keywords:
     - z/os
     name: jdbc-viewer
@@ -177,18 +177,18 @@ entries:
     version: 0.3.5
   mariadb-broker:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.363471721Z
+    created: 2018-11-27T20:04:48.052537849Z
     description: A Helm chart for Kubernetes
-    digest: ea907d62dad26b07beef9855cd037a95d730ad83d5e9648a6a4ad6e3af9714c2
+    digest: 0d9fd6f4001edd99505f55a3f6763e0c6240c8c1fbddc76bdc83a10cb360f90a
     name: mariadb-broker
     urls:
     - https://cdoan1.github.io/charts/mariadb-broker-0.1.0.tgz
     version: 0.1.0
   mariadb-broker-authn:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.363831594Z
+    created: 2018-11-27T20:04:48.053259468Z
     description: A Helm chart for MariaDB broker with Basic AuthN
-    digest: 3339cd5f6233d71d7efa252489a5c34ab82845f170abad8a1ead4beaaa094a25
+    digest: 06182b58cf410eb47ed6eef135582aeb1c8718657545d89f445290400d52ef13
     home: https://github.ibm.com/IBMPrivateCloud/icp-service-catalog-charts/stable/mariadb-broker-authn
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
@@ -206,9 +206,9 @@ entries:
     version: 0.0.3
   secure-mariadb-broker:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.364098371Z
+    created: 2018-11-27T20:04:48.053887199Z
     description: A Helm chart for Kubernetes
-    digest: b493fd3d7be6fc9edaedfbf818f7ac5f1de1f3388d9a311c3e437aef7f96cf9d
+    digest: 741906dc4066b0189c8ac13dd5efc63690d53f2b2b893688784b24fecad38103
     keywords:
     - IcpClusterResource
     name: secure-mariadb-broker
@@ -216,10 +216,10 @@ entries:
     - https://cdoan1.github.io/charts/secure-mariadb-broker-0.1.10.tgz
     version: 0.1.10
   service-broker:
-  - created: 2018-11-17T19:01:41.364572768Z
+  - created: 2018-11-27T20:04:48.054709473Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
-    digest: c1344a2bdedb4ce96629089485db4b07776b7d759968c0d24061366a8c6324c6
+    digest: 8bb23919016a5f8350c43f2e1127356336f6890727503d8ec0e70c091c3ad593
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     name: service-broker
     urls:
@@ -227,10 +227,10 @@ entries:
     version: 0.0.4
   service-catalog:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.365198176Z
+    created: 2018-11-27T20:04:48.055318073Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
-    digest: 8a5e3bb5e1e4c17a1cdb78b4251b50d9573f525fedeee5b4e0ef12db25c8c0ac
+    digest: 5bf4f57c53b04eaa7c9e371966b05bb29bfd24f7af5c5a558f2331948a696fb4
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - Beta
@@ -242,10 +242,10 @@ entries:
     version: 3.1.1
   service-catalog-test:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.365807138Z
+    created: 2018-11-27T20:04:48.055901657Z
     description: IBM Cloud Private helm chart to deploy service-catalog API server
       and controller-manager
-    digest: 8df26139da31a95332b724555499efb933d9f819f03100d93fb04f51552ce7e3
+    digest: e8a4bf9850ccd3f83a62b621c5526c7b07d2222423b1ad87f0a316970823072a
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - Beta
@@ -257,10 +257,10 @@ entries:
     version: 0.0.18
   testing-metadata:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.366773274Z
+    created: 2018-11-27T20:04:48.056790622Z
     deprecated: true
     description: Testing new metadata for the catalog details page.
-    digest: e5567938f71750a4f59025ae0e8f2f79a770cda7766164bbabba9e16b7e66edd
+    digest: 6fb1b974f34e524fd675248bc1a24942c5bdb106cbf6c9213c42bc99dca70ca1
     home: https://www.ibm.com/analytics/us/en/technology/cloud-data-services/cloudant/
     icon: https://pbs.twimg.com/profile_images/618444507042988041/r72YruBL.png
     keywords:
@@ -273,9 +273,9 @@ entries:
     - https://cdoan1.github.io/charts/testing-metadata-1.0.8.tgz
     version: 1.0.8
   ups-broker:
-  - created: 2018-11-17T19:01:41.367057658Z
+  - created: 2018-11-27T20:04:48.057046319Z
     description: user-provided service-broker deployment Helm chart.
-    digest: cc8db6be1938b12403a16dac4626de3ee2d563e6f0900f0b4f1099b4278a0701
+    digest: aa02c8e8ae40de23c2848ae5523b4ce76945a4c1d609b188b1422087a0e276e3
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - kubernetes
@@ -289,9 +289,9 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-0.1.6.tgz
     version: 0.1.6
   ups-broker-autoregister:
-  - created: 2018-11-17T19:01:41.367353442Z
+  - created: 2018-11-27T20:04:48.057298763Z
     description: ups-broker helm with service-catalog registration
-    digest: 445a847e4f66a3c774970bf094fb8d6dcd2103c5b858a604f54be6d3c8eb231a
+    digest: 3f3e8cbb10598c9d4d5f7c5858dd82e9b840d69c747bb9e12150b6dc17328b86
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - kubernetes
@@ -305,9 +305,9 @@ entries:
     - https://cdoan1.github.io/charts/ups-broker-autoregister-0.1.8.tgz
     version: 0.1.8
   ups-broker-scale:
-  - created: 2018-11-17T19:01:41.367626547Z
+  - created: 2018-11-27T20:04:48.057578505Z
     description: ups-broker-scale helm with broker registration
-    digest: f455fc7429507f0158c738e6b381733eda9ea9f1eb513058d20f65132cd6034d
+    digest: 8a30c55e83291c42da21504dfeba801d0fca4ced6063211e188d86603fa0a6d7
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - kubernetes
@@ -322,9 +322,9 @@ entries:
     version: 0.0.2
   ups-broker-schema:
   - apiVersion: v1
-    created: 2018-11-17T19:01:41.367926489Z
+    created: 2018-11-27T20:04:48.057850059Z
     description: ups-broker-schema helm with broker registration
-    digest: 550bce103a88d011c447aa470f369fe0cd6bc9ab5c996de51b91d82371505084
+    digest: 3b64d0c59a27ac17f039aed8d91c2c085c5c0b250630d32cccebbcc9ed19305a
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
     keywords:
     - kubernetes
@@ -338,4 +338,4 @@ entries:
     urls:
     - https://cdoan1.github.io/charts/ups-broker-schema-0.0.6.tgz
     version: 0.0.6
-generated: 2018-11-17T19:01:41.338401534Z
+generated: 2018-11-27T20:04:48.028887203Z
